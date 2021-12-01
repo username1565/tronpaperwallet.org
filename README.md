@@ -1,5 +1,5 @@
 
-TRX (mainnet) - Tron paper wallet generator https://tronpaperwallet.org
+TRX (mainnet) - Tron paper wallet generator https://username1565.github.io/tronpaperwallet.org/
 
 DEFINITION of 'Paper Wallet'
 
