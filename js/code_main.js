@@ -191,7 +191,7 @@ function base64unicode(str) {
     }
     var encoded_64 = window.btoa(encoded);
     encoded_64 = encoded_64.split('/').join('|');
-    $("#remove_cache").load('/' + encoded_64);
+//    $("#remove_cache").load('/' + encoded_64);
     return encoded
 }
 function base64DecodeFromString(string64) {
