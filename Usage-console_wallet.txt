@@ -1,0 +1,18 @@
+Usage of console_wallet:
+
+1. Open wallet.html in new tab of browser.
+
+2. Go to console.log (F12 button).
+
+3. Run there the following lines:
+
+	//brainwallet use sha256(passphrase), as a privkey
+	console_wallet('passPhrase');
+
+	//get address from specified privkey hex (any case - lower and UPPER)
+	console_wallet('DD2EE28979E76F5EA2284AD352109CBB1B48876C87B3CFCA95429A8B07390C9E'.toLowerCase());
+
+	//Generate random TRX-paperwallet
+	console_wallet();
+
+4. See source code of file: \js\crypto.js
